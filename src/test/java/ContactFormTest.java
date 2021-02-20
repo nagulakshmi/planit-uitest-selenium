@@ -57,6 +57,26 @@ public class ContactFormTest {
         chromeDriver.close();
     }
 
-
+    @Test(description = "Test Case 3 - Verify form validation with invalid data field", priority = 3)
+    public void contactFormErrorMsgValidate() throws InterruptedException {
+        WebDriverManager.chromedriver().setup();
+        ChromeDriver chromeDriver = new ChromeDriver();
+        chromeDriver.manage().window().maximize();
+        chromeDriver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+        chromeDriver.get("https://jupiter.cloud.planittesting.com/");
+        chromeDriver.findElement(By.id("nav-contact")).click();
+        WebDriverWait webDriverWait = new WebDriverWait(chromeDriver, 20);
+        webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.className("btn-primary")));
+        chromeDriver.findElement(By.className("btn-primary")).click();
+        Assert.assertEquals(chromeDriver.findElement(By.id("forename-err")).getText(),"Forename is required");
+        Assert.assertEquals(chromeDriver.findElement(By.id("email-err")).getText(),"Email is required");
+        Assert.assertEquals(chromeDriver.findElement(By.id("message-err")).getText(),"Message is required");
+        chromeDriver.findElement(By.id("forename")).sendKeys("Nagalakshmi");
+        chromeDriver.findElement(By.id("email")).sendKeys("lakshmi.padumanabhan");
+        chromeDriver.findElement(By.id("message")).sendKeys("planit automation testing");
+        Assert.assertEquals(chromeDriver.findElement(By.id("email-err")).getText(),"Please enter a valid email");
+        Thread.sleep(2000);
+        chromeDriver.close();
+    }
 
 }
