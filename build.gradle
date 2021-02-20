@@ -13,4 +13,11 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+    implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '4.3.1'
+    testImplementation group: 'org.testng', name: 'testng', version: '6.10'
+}
+
+test {
+    useTestNG()
 }
