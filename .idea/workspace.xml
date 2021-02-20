@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18ff720b-769a-4455-9fd3-52ea2eee6dc6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ContactFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ContactFormTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -54,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ContactFormTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="93" selection-start-line="30" selection-start-column="93" selection-end-line="30" selection-end-column="93" />
+            <state relative-caret-position="376">
+              <caret line="43" column="72" selection-start-line="43" selection-start-column="72" selection-end-line="43" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ContactFormTest.contactFormValidation (1)">
+  <component name="RunManager" selected="TestNG.ContactFormTest.contactFormSubmission">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -194,6 +193,28 @@
       <option name="MAIN_CLASS_NAME" value="ContactFormTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactFormTest.contactFormSubmission" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jupiter.test" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ContactFormTest" />
+      <option name="METHOD_NAME" value="contactFormSubmission" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -268,9 +289,11 @@
       <item itemvalue="TestNG.ContactFormTest.contactFormValidation" />
       <item itemvalue="TestNG.ContactFormTest (1)" />
       <item itemvalue="TestNG.ContactFormTest.contactFormValidation (1)" />
+      <item itemvalue="TestNG.ContactFormTest.contactFormSubmission" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ContactFormTest.contactFormSubmission" />
         <item itemvalue="TestNG.ContactFormTest.contactFormValidation (1)" />
         <item itemvalue="TestNG.ContactFormTest (1)" />
         <item itemvalue="TestNG.ContactFormTest.contactFormValidation" />
@@ -292,21 +315,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContactFormTest_(1) - 2021.02.20 at 13h 29m 13s.xml">
-      <configuration name="ContactFormTest (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ContactFormTest_(1) - 2021.02.20 at 13h 39m 13s.xml">
-      <configuration name="ContactFormTest (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ContactFormTest_(1) - 2021.02.20 at 13h 51m 25s.xml">
-      <configuration name="ContactFormTest (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ContactFormTest_(1) - 2021.02.20 at 14h 02m 10s.xml">
-      <configuration name="ContactFormTest (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ContactFormTest_(1) - 2021.02.20 at 14h 10m 12s.xml">
-      <configuration name="ContactFormTest (1)" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ContactFormTest_contactFormValidation_(1) - 2021.02.20 at 14h 11m 31s.xml">
       <configuration name="ContactFormTest.contactFormValidation (1)" configurationId="TestNG" />
     </history-entry>
@@ -321,6 +329,21 @@
     </history-entry>
     <history-entry file="ContactFormTest_contactFormValidation_(1) - 2021.02.20 at 14h 33m 29s.xml">
       <configuration name="ContactFormTest.contactFormValidation (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactFormTest_contactFormValidation_(1) - 2021.02.20 at 14h 37m 14s.xml">
+      <configuration name="ContactFormTest.contactFormValidation (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactFormTest_contactFormSubmission - 2021.02.20 at 14h 41m 02s.xml">
+      <configuration name="ContactFormTest.contactFormSubmission" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactFormTest_contactFormSubmission - 2021.02.20 at 16h 30m 41s.xml">
+      <configuration name="ContactFormTest.contactFormSubmission" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactFormTest_contactFormSubmission - 2021.02.20 at 16h 33m 54s.xml">
+      <configuration name="ContactFormTest.contactFormSubmission" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactFormTest_contactFormSubmission - 2021.02.20 at 16h 36m 58s.xml">
+      <configuration name="ContactFormTest.contactFormSubmission" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -374,8 +397,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ContactFormTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="93" selection-start-line="30" selection-start-column="93" selection-end-line="30" selection-end-column="93" />
+        <state relative-caret-position="376">
+          <caret line="43" column="72" selection-start-line="43" selection-start-column="72" selection-end-line="43" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
