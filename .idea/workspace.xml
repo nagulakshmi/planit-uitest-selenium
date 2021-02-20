@@ -53,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ContactFormTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="76" column="103" selection-start-line="76" selection-start-column="103" selection-end-line="76" selection-end-column="103" />
+            <state relative-caret-position="450">
+              <caret line="98" column="29" lean-forward="true" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ContactFormTest.contactFormErrorMsgValidate">
+  <component name="RunManager" selected="TestNG.ContactFormTest.verifyShopCardItem">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -253,13 +253,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactFormTest.contactFormValidation" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactFormTest.verifyShopCardItem" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="jupiter.test" />
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ContactFormTest" />
-      <option name="METHOD_NAME" value="contactFormValidation" />
+      <option name="METHOD_NAME" value="verifyShopCardItem" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -295,19 +304,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.ContactFormTest.contactFormValidation" />
       <item itemvalue="TestNG.ContactFormTest (1)" />
       <item itemvalue="TestNG.ContactFormTest.contactFormValidation (1)" />
       <item itemvalue="TestNG.ContactFormTest.contactFormSubmission" />
       <item itemvalue="TestNG.ContactFormTest.contactFormErrorMsgValidate" />
+      <item itemvalue="TestNG.ContactFormTest.verifyShopCardItem" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ContactFormTest.verifyShopCardItem" />
         <item itemvalue="TestNG.ContactFormTest.contactFormErrorMsgValidate" />
         <item itemvalue="TestNG.ContactFormTest.contactFormSubmission" />
         <item itemvalue="TestNG.ContactFormTest.contactFormValidation (1)" />
         <item itemvalue="TestNG.ContactFormTest (1)" />
-        <item itemvalue="TestNG.ContactFormTest.contactFormValidation" />
       </list>
     </recent_temporary>
   </component>
@@ -325,35 +334,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContactFormTest_contactFormValidation_(1) - 2021.02.20 at 14h 23m 57s.xml">
-      <configuration name="ContactFormTest.contactFormValidation (1)" configurationId="TestNG" />
+    <history-entry file="ContactFormTest_contactFormErrorMsgValidate - 2021.02.20 at 16h 44m 31s.xml">
+      <configuration name="ContactFormTest.contactFormErrorMsgValidate" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactFormTest_contactFormValidation_(1) - 2021.02.20 at 14h 26m 20s.xml">
-      <configuration name="ContactFormTest.contactFormValidation (1)" configurationId="TestNG" />
+    <history-entry file="ContactFormTest_contactFormErrorMsgValidate - 2021.02.20 at 16h 45m 18s.xml">
+      <configuration name="ContactFormTest.contactFormErrorMsgValidate" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactFormTest_contactFormValidation_(1) - 2021.02.20 at 14h 33m 29s.xml">
-      <configuration name="ContactFormTest.contactFormValidation (1)" configurationId="TestNG" />
+    <history-entry file="ContactFormTest_verifyShopCardItem - 2021.02.20 at 17h 11m 04s.xml">
+      <configuration name="ContactFormTest.verifyShopCardItem" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactFormTest_contactFormValidation_(1) - 2021.02.20 at 14h 37m 14s.xml">
-      <configuration name="ContactFormTest.contactFormValidation (1)" configurationId="TestNG" />
+    <history-entry file="ContactFormTest_verifyShopCardItem - 2021.02.20 at 17h 20m 42s.xml">
+      <configuration name="ContactFormTest.verifyShopCardItem" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactFormTest_contactFormSubmission - 2021.02.20 at 14h 41m 02s.xml">
-      <configuration name="ContactFormTest.contactFormSubmission" configurationId="TestNG" />
+    <history-entry file="ContactFormTest_verifyShopCardItem - 2021.02.20 at 17h 29m 12s.xml">
+      <configuration name="ContactFormTest.verifyShopCardItem" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactFormTest_contactFormSubmission - 2021.02.20 at 16h 30m 41s.xml">
-      <configuration name="ContactFormTest.contactFormSubmission" configurationId="TestNG" />
+    <history-entry file="ContactFormTest_verifyShopCardItem - 2021.02.20 at 17h 30m 12s.xml">
+      <configuration name="ContactFormTest.verifyShopCardItem" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactFormTest_contactFormSubmission - 2021.02.20 at 16h 33m 54s.xml">
-      <configuration name="ContactFormTest.contactFormSubmission" configurationId="TestNG" />
+    <history-entry file="ContactFormTest_verifyShopCardItem - 2021.02.20 at 17h 33m 13s.xml">
+      <configuration name="ContactFormTest.verifyShopCardItem" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactFormTest_contactFormSubmission - 2021.02.20 at 16h 36m 58s.xml">
-      <configuration name="ContactFormTest.contactFormSubmission" configurationId="TestNG" />
+    <history-entry file="ContactFormTest_verifyShopCardItem - 2021.02.20 at 17h 34m 00s.xml">
+      <configuration name="ContactFormTest.verifyShopCardItem" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactFormTest_contactFormSubmission - 2021.02.20 at 16h 37m 34s.xml">
-      <configuration name="ContactFormTest.contactFormSubmission" configurationId="TestNG" />
+    <history-entry file="ContactFormTest_verifyShopCardItem - 2021.02.20 at 17h 35m 03s.xml">
+      <configuration name="ContactFormTest.verifyShopCardItem" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactFormTest_contactFormSubmission - 2021.02.20 at 16h 38m 36s.xml">
-      <configuration name="ContactFormTest.contactFormSubmission" configurationId="TestNG" />
+    <history-entry file="ContactFormTest_verifyShopCardItem - 2021.02.20 at 17h 42m 23s.xml">
+      <configuration name="ContactFormTest.verifyShopCardItem" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -368,13 +377,13 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32928064" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32928064" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.32928064" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32928064" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32928064" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -407,8 +416,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ContactFormTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="76" column="103" selection-start-line="76" selection-start-column="103" selection-end-line="76" selection-end-column="103" />
+        <state relative-caret-position="450">
+          <caret line="98" column="29" lean-forward="true" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

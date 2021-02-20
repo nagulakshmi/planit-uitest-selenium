@@ -79,4 +79,25 @@ public class ContactFormTest {
         chromeDriver.close();
     }
 
+    @Test(description = "Test Case 4 - Verify the items are in the cart", priority = 4)
+    public void verifyShopCardItem() throws InterruptedException {
+        WebDriverManager.chromedriver().setup();
+        ChromeDriver chromeDriver = new ChromeDriver();
+        chromeDriver.manage().window().maximize();
+        chromeDriver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+        chromeDriver.get("https://jupiter.cloud.planittesting.com/");
+        chromeDriver.findElement(By.id("nav-shop")).click();
+        WebDriverWait webDriverWait = new WebDriverWait(chromeDriver, 20);
+        webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.className("products")));
+        chromeDriver.findElement(By.xpath("//*[@id=\"product-6\"]/div/p/a")).click();
+        chromeDriver.findElement(By.xpath("//*[@id=\"product-6\"]/div/p/a")).click();
+        chromeDriver.findElement(By.xpath("//*[@id=\"product-4\"]/div/p/a")).click();
+        chromeDriver.findElement(By.id("nav-cart")).click();
+        webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.className("cart-items"))).click();
+        Assert.assertEquals(chromeDriver.findElements(By.className("cart-item")).size(),2);
+        Thread.sleep(4000);
+        chromeDriver.close();
+    }
+
+
 }
