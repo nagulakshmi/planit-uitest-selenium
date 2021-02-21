@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 @Test
-public class ContactFormTest {
+public class ContactFormTest extends BaseTest {
 
     private WebDriver driver;
     private WebDriverWait webDriverWait;
@@ -37,34 +37,40 @@ public class ContactFormTest {
 
 
     @Test(description = "Test Case 1 - Verify form validation messages", priority = 1)
-    public void contactFormValidation() throws InterruptedException {
+    public void contactFormValidation() throws IOException {
         driver.findElement(By.className("btn-primary")).click();
+        takeScreenShot(driver,"Testcase-1");
         Assert.assertEquals(driver.findElement(By.id("forename-err")).getText(), "Forename is required");
         Assert.assertEquals(driver.findElement(By.id("email-err")).getText(), "Email is required");
         Assert.assertEquals(driver.findElement(By.id("message-err")).getText(), "Message is required");
         driver.findElement(By.id("forename")).sendKeys("Nagalakshmi");
         driver.findElement(By.id("email")).sendKeys("lakshmi.padumanabhan@gmail.com");
         driver.findElement(By.id("message")).sendKeys("planit automation testing");
+        takeScreenShot(driver,"Testcase-1");
         Assert.assertEquals(driver.findElements(By.className("help-inline")).size(), 0);
         driver.close();
     }
 
     @Test(description = "Test Case 2 - Verify form validation and successful submission message", priority = 2)
-    public void contactFormSubmission() throws InterruptedException {
+    public void contactFormSubmission() throws IOException {
         driver.findElement(By.id("forename")).sendKeys("Nagalakshmi");
         driver.findElement(By.id("email")).sendKeys("lakshmi.padumanabhan@gmail.com");
         driver.findElement(By.id("message")).sendKeys("planit automation testing");
+        takeScreenShot(driver,"Testcase-2");
         driver.findElement(By.className("btn-primary")).click();
+        takeScreenShot(driver,"Testcase-2");
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.className("alert-success")));
         Assert.assertEquals(driver.findElement(By.className("alert-success")).getText(), "Thanks Nagalakshmi, we appreciate your feedback.");
+        takeScreenShot(driver,"Testcase-2");
         driver.close();
     }
 
     @Test(description = "Test Case 3 - Verify form validation with invalid data field", priority = 3)
-    public void contactFormErrorMsgValidate() throws InterruptedException {
+    public void contactFormErrorMsgValidate() throws IOException {
         driver.findElement(By.id("forename")).sendKeys("123456");
         driver.findElement(By.id("email")).sendKeys("lakshmi.padumanabhan");
         driver.findElement(By.id("message")).sendKeys("!@#$%^&**((");
+        takeScreenShot(driver,"Testcase-3");
         Assert.assertEquals(driver.findElement(By.id("email-err")).getText(), "Please enter a valid email");
         driver.close();
     }

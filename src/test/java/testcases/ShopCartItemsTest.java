@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.Properties;
 
 @Test
-public class ShopCartItemsTest {
+public class ShopCartItemsTest extends BaseTest {
     private WebDriver driver;
     private WebDriverWait webDriverWait;
     private Properties properties;
@@ -37,9 +37,10 @@ public class ShopCartItemsTest {
     }
 
     @Test(description = "Test case 4- Verify the items are in the cart")
-    public void shopCartItems() {
+    public void shopCartItems() throws IOException {
         webDriverWait = new WebDriverWait(driver, 20);
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.className("products")));
+        takeScreenShot(driver,"Testcase-4");
         driver.findElement(By.xpath("//*[@id=\"product-6\"]/div/p/a")).click();
         driver.findElement(By.xpath("//*[@id=\"product-6\"]/div/p/a")).click();
         driver.findElement(By.xpath("//*[@id=\"product-4\"]/div/p/a")).click();
@@ -47,6 +48,7 @@ public class ShopCartItemsTest {
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.className("cart-items"))).click();
         List<WebElement> elements = driver.findElements(By.className("cart-item"));
         Assert.assertEquals(elements.size(), 2);
+        takeScreenShot(driver,"Testcase-4");
         ArrayList<ArrayList<String>> expectedValue = new ArrayList<>();
         expectedValue.add(new ArrayList<>(Arrays.asList("Funny Cow", "$10.99", "2", "$21.98", "")));
         expectedValue.add(new ArrayList<>(Arrays.asList("Fluffy Bunny", "$9.99", "1", "$9.99", "")));
