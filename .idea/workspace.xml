@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18ff720b-769a-4455-9fd3-52ea2eee6dc6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/driver/PlanitDriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/ContactFormTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/ShopCartItemsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/planit.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ContactFormTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ContactFormTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/driver/PlanitDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/PlanitDriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/ContactFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/ContactFormTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/ShopCartItemsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/ShopCartItemsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -56,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testcases/ContactFormTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="111" selection-start-line="111" selection-end-line="111" />
+            <state relative-caret-position="318">
+              <caret line="30" column="161" selection-start-line="30" selection-start-column="161" selection-end-line="30" selection-end-column="161" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,14 +66,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testcases/ShopCartItemsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+            <state relative-caret-position="445">
+              <caret line="36" column="54" lean-forward="true" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/planit.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -83,46 +90,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/driver/PlanitDriverManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="452">
+              <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-chrome-driver/3.141.59/b7189fcb53e45dcce1f02cf71bfd7d1a38883fed/selenium-chrome-driver-3.141.59-sources.jar!/org/openqa/selenium/chrome/ChromeDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3">
-              <caret line="107" column="41" selection-start-line="107" selection-start-column="41" selection-end-line="107" selection-end-column="41" />
-              <folding>
-                <element signature="e#4639#4640#0" expanded="true" />
-                <element signature="e#4718#4719#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/3.141.59/8950c1557ead2cdba4fdb9ba6f107dce3b5f1520/selenium-remote-driver-3.141.59-sources.jar!/org/openqa/selenium/remote/RemoteWebDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="90" column="54" selection-start-line="90" selection-start-column="54" selection-end-line="90" selection-end-column="54" />
-              <folding>
-                <element signature="e#11393#11394#0" expanded="true" />
-                <element signature="e#11431#11432#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/3.141.59/7e42f1c3e43d22f2c299b74356137dc6f2f455ec/selenium-support-3.141.59-sources.jar!/org/openqa/selenium/support/ui/WebDriverWait.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -151,14 +123,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/driver/PlanitDriverManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/ContactFormTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testcases/ContactFormTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/testcases/ShopCartItemsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/driver/PlanitDriverManager.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/planit.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/testcases/ContactFormTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1106" />
@@ -199,7 +172,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="driver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jupiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="planit-uitest-selenium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testcases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jupiter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="planit-uitest-selenium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -228,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ShopCartItemsTest">
+  <component name="RunManager" selected="TestNG.ShopCartItemsTest.shopCartItems">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -269,12 +257,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactFormTest.contactFormErrorMsgValidate" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactFormTest.ContactFormTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="jupiter.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="testcases" />
       <option name="MAIN_CLASS_NAME" value="testcases.ContactFormTest" />
-      <option name="METHOD_NAME" value="contactFormErrorMsgValidate" />
+      <option name="METHOD_NAME" value="ContactFormTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
@@ -291,34 +285,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactFormTest.contactFormSubmission" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactFormTest.contactFormValidation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="jupiter.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="testcases" />
       <option name="MAIN_CLASS_NAME" value="testcases.ContactFormTest" />
-      <option name="METHOD_NAME" value="contactFormSubmission" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContactFormTest.verifyShopCardItem" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="jupiter.test" />
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="testcases.ContactFormTest" />
-      <option name="METHOD_NAME" value="verifyShopCardItem" />
+      <option name="METHOD_NAME" value="contactFormValidation" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
@@ -348,6 +326,34 @@
       <option name="MAIN_CLASS_NAME" value="testcases.ShopCartItemsTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopCartItemsTest.shopCartItems" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jupiter.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.ShopCartItemsTest" />
+      <option name="METHOD_NAME" value="shopCartItems" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -392,18 +398,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.ContactFormTest (1)" />
-      <item itemvalue="TestNG.ContactFormTest.contactFormSubmission" />
-      <item itemvalue="TestNG.ContactFormTest.contactFormErrorMsgValidate" />
-      <item itemvalue="TestNG.ContactFormTest.verifyShopCardItem" />
       <item itemvalue="TestNG.ShopCartItemsTest" />
+      <item itemvalue="TestNG.ContactFormTest.ContactFormTest" />
+      <item itemvalue="TestNG.ContactFormTest.contactFormValidation" />
+      <item itemvalue="TestNG.ShopCartItemsTest.shopCartItems" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ShopCartItemsTest.shopCartItems" />
+        <item itemvalue="TestNG.ContactFormTest.contactFormValidation" />
         <item itemvalue="TestNG.ShopCartItemsTest" />
+        <item itemvalue="TestNG.ContactFormTest.ContactFormTest" />
         <item itemvalue="TestNG.ContactFormTest (1)" />
-        <item itemvalue="TestNG.ContactFormTest.verifyShopCardItem" />
-        <item itemvalue="TestNG.ContactFormTest.contactFormErrorMsgValidate" />
-        <item itemvalue="TestNG.ContactFormTest.contactFormSubmission" />
       </list>
     </recent_temporary>
   </component>
@@ -421,42 +427,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContactFormTest_verifyShopCardItem - 2021.02.21 at 02h 38m 07s.xml">
-      <configuration name="ContactFormTest.verifyShopCardItem" configurationId="TestNG" />
+    <history-entry file="ContactFormTest_contactFormValidation - 2021.02.21 at 08h 40m 02s.xml">
+      <configuration name="ContactFormTest.contactFormValidation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactFormTest_verifyShopCardItem - 2021.02.21 at 02h 40m 10s.xml">
-      <configuration name="ContactFormTest.verifyShopCardItem" configurationId="TestNG" />
+    <history-entry file="ShopCartItemsTest - 2021.02.21 at 08h 41m 26s.xml">
+      <configuration name="ShopCartItemsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactFormTest_verifyShopCardItem - 2021.02.21 at 02h 53m 31s.xml">
-      <configuration name="ContactFormTest.verifyShopCardItem" configurationId="TestNG" />
+    <history-entry file="ShopCartItemsTest - 2021.02.21 at 08h 46m 22s.xml">
+      <configuration name="ShopCartItemsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactFormTest_verifyShopCardItem - 2021.02.21 at 02h 54m 42s.xml">
-      <configuration name="ContactFormTest.verifyShopCardItem" configurationId="TestNG" />
+    <history-entry file="ShopCartItemsTest - 2021.02.21 at 08h 47m 03s.xml">
+      <configuration name="ShopCartItemsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactFormTest_verifyShopCardItem - 2021.02.21 at 03h 18m 10s.xml">
-      <configuration name="ContactFormTest.verifyShopCardItem" configurationId="TestNG" />
+    <history-entry file="ShopCartItemsTest_shopCartItems - 2021.02.21 at 08h 53m 11s.xml">
+      <configuration name="ShopCartItemsTest.shopCartItems" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactFormTest_verifyShopCardItem - 2021.02.21 at 03h 20m 41s.xml">
-      <configuration name="ContactFormTest.verifyShopCardItem" configurationId="TestNG" />
+    <history-entry file="ContactFormTest_contactFormValidation - 2021.02.21 at 08h 53m 46s.xml">
+      <configuration name="ContactFormTest.contactFormValidation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactFormTest_verifyShopCardItem - 2021.02.21 at 03h 22m 04s.xml">
-      <configuration name="ContactFormTest.verifyShopCardItem" configurationId="TestNG" />
+    <history-entry file="ContactFormTest_contactFormValidation - 2021.02.21 at 08h 54m 06s.xml">
+      <configuration name="ContactFormTest.contactFormValidation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactFormTest_verifyShopCardItem - 2021.02.21 at 03h 23m 12s.xml">
-      <configuration name="ContactFormTest.verifyShopCardItem" configurationId="TestNG" />
+    <history-entry file="ContactFormTest_contactFormValidation - 2021.02.21 at 08h 55m 48s.xml">
+      <configuration name="ContactFormTest.contactFormValidation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactFormTest - 2021.02.21 at 05h 27m 05s.xml">
-      <configuration name="ContactFormTest" configurationId="TestNG" />
+    <history-entry file="ContactFormTest_contactFormValidation - 2021.02.21 at 10h 09m 51s.xml">
+      <configuration name="ContactFormTest.contactFormValidation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactFormTest - 2021.02.21 at 05h 28m 10s.xml">
-      <configuration name="ContactFormTest" configurationId="TestNG" />
+    <history-entry file="ShopCartItemsTest_shopCartItems - 2021.02.21 at 10h 15m 01s.xml">
+      <configuration name="ShopCartItemsTest.shopCartItems" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1106" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="1104" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13471779" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -465,7 +471,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32795155" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32861477" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -474,7 +480,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32795155" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32928064" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32962587" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -486,36 +492,11 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/testcases/ContactFormTest.java</url>
-          <line>68</line>
-          <properties class="testcases.ContactFormTest">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-chrome-driver/3.141.59/b7189fcb53e45dcce1f02cf71bfd7d1a38883fed/selenium-chrome-driver-3.141.59-sources.jar!/org/openqa/selenium/chrome/ChromeDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="107" column="41" selection-start-line="107" selection-start-column="41" selection-end-line="107" selection-end-column="41" />
-          <folding>
-            <element signature="e#4639#4640#0" expanded="true" />
-            <element signature="e#4718#4719#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -537,30 +518,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/driver/PlanitDriverManager.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/util/Properties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="213">
+          <caret line="433" selection-start-line="433" selection-end-line="433" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testcases/ContactFormTest.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-chrome-driver/3.141.59/b7189fcb53e45dcce1f02cf71bfd7d1a38883fed/selenium-chrome-driver-3.141.59-sources.jar!/org/openqa/selenium/chrome/ChromeDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        <state relative-caret-position="3">
+          <caret line="107" column="41" selection-start-line="107" selection-start-column="41" selection-end-line="107" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#4639#4640#0" expanded="true" />
+            <element signature="e#4718#4719#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testcases/ShopCartItemsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+        <state relative-caret-position="445">
+          <caret line="36" column="54" lean-forward="true" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/driver/PlanitDriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/planit.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testcases/ContactFormTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="30" column="161" selection-start-line="30" selection-start-column="161" selection-end-line="30" selection-end-column="161" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

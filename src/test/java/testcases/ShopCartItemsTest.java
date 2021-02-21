@@ -8,26 +8,32 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
+import java.util.Properties;
 
 @Test
 public class ShopCartItemsTest {
     private WebDriver driver;
     private WebDriverWait webDriverWait;
+    private Properties properties;
+
+    @BeforeTest
+    public void setUp() throws IOException {
+        properties = new Properties();
+        properties.load(this.getClass().getClassLoader().getResourceAsStream("planit.properties"));
+    }
 
     @BeforeMethod(description = "Execute befor all test case")
     public void beforeAllTestCase() throws Exception {
-        driver = PlanitDriverManager.getWebDriverByBrowerName("firefox");
-        driver.manage().window().maximize();
-        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-        driver.get("https://jupiter.cloud.planittesting.com/");
+        driver = PlanitDriverManager.getWebDriverByBrowerName(properties.getProperty("test.browsername"),Long.parseLong(properties.getProperty("timeout.page")));
+        driver.get(properties.getProperty("server.url"));
         driver.findElement(By.id("nav-shop")).click();
-
     }
 
     @Test(description = "Test case 4- Verify the items are in the cart")

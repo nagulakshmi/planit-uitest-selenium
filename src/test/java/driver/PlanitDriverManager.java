@@ -15,7 +15,7 @@ public class PlanitDriverManager {
     public static final String FIREFOX_BROWSER = "FIREFOX";
     public static final String EDGE_BROWSER = "EDGE";
 
-    public static WebDriver getWebDriverByBrowerName(String browserName) throws Exception {
+    public static WebDriver getWebDriverByBrowerName(String browserName, long pageTimeout) throws Exception {
         switch (browserName.toUpperCase()) {
             case CHROME_BROWSER:
                 WebDriverManager.chromedriver().setup();
@@ -34,7 +34,7 @@ public class PlanitDriverManager {
         }
 
         driver.manage().window().maximize();
-        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(pageTimeout, TimeUnit.SECONDS);
         return driver;
     }
 }
