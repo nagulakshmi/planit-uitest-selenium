@@ -33,12 +33,12 @@ public class ContactFormTest {
         driver.findElement(By.id("nav-contact")).click();
         webDriverWait = new WebDriverWait(driver, Long.parseLong(properties.getProperty("timeout.explicit")));
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.className("btn-primary")));
-        driver.findElement(By.className("btn-primary")).click();
     }
 
 
     @Test(description = "Test Case 1 - Verify form validation messages", priority = 1)
     public void contactFormValidation() throws InterruptedException {
+        driver.findElement(By.className("btn-primary")).click();
         Assert.assertEquals(driver.findElement(By.id("forename-err")).getText(), "Forename is required");
         Assert.assertEquals(driver.findElement(By.id("email-err")).getText(), "Email is required");
         Assert.assertEquals(driver.findElement(By.id("message-err")).getText(), "Message is required");
@@ -51,9 +51,6 @@ public class ContactFormTest {
 
     @Test(description = "Test Case 2 - Verify form validation and successful submission message", priority = 2)
     public void contactFormSubmission() throws InterruptedException {
-        Assert.assertEquals(driver.findElement(By.id("forename-err")).getText(), "Forename is required");
-        Assert.assertEquals(driver.findElement(By.id("email-err")).getText(), "Email is required");
-        Assert.assertEquals(driver.findElement(By.id("message-err")).getText(), "Message is required");
         driver.findElement(By.id("forename")).sendKeys("Nagalakshmi");
         driver.findElement(By.id("email")).sendKeys("lakshmi.padumanabhan@gmail.com");
         driver.findElement(By.id("message")).sendKeys("planit automation testing");
@@ -65,12 +62,9 @@ public class ContactFormTest {
 
     @Test(description = "Test Case 3 - Verify form validation with invalid data field", priority = 3)
     public void contactFormErrorMsgValidate() throws InterruptedException {
-        Assert.assertEquals(driver.findElement(By.id("forename-err")).getText(), "Forename is required");
-        Assert.assertEquals(driver.findElement(By.id("email-err")).getText(), "Email is required");
-        Assert.assertEquals(driver.findElement(By.id("message-err")).getText(), "Message is required");
-        driver.findElement(By.id("forename")).sendKeys("Nagalakshmi");
+        driver.findElement(By.id("forename")).sendKeys("123456");
         driver.findElement(By.id("email")).sendKeys("lakshmi.padumanabhan");
-        driver.findElement(By.id("message")).sendKeys("planit automation testing");
+        driver.findElement(By.id("message")).sendKeys("!@#$%^&**((");
         Assert.assertEquals(driver.findElement(By.id("email-err")).getText(), "Please enter a valid email");
         driver.close();
     }
