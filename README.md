@@ -1,6 +1,6 @@
 *UI Test Automation using Selenium & TestNG*
 
-    1. TestNG used to run all the selenium test cases.
+    1. All test cases executed using TestNG runner.
     2. This code supports chrome, firefox & edge browser.
     3. Web driver manager used to configure different browsers.
     4. browser name, page time out & explicit timeout can be configured in the property file.
